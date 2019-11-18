@@ -10,7 +10,12 @@
             $("p").html("A");
           } else if (score >= 70) {
             $("p").html("B");
-          } else {
+          }else if(score >=60){
+            $("p").html("C");
+          }else if(score>=50){
+            $("p").html("D");
+          }
+           else {
             $("p").html("F");
           }
         });
